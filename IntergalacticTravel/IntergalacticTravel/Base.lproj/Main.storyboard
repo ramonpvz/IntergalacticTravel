@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="8e9-iL-82A">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ZMS-5w-hkA">
+            <objects>
+                <viewController id="8e9-iL-82A" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="fxK-G5-lQB"/>
+                        <viewControllerLayoutGuide type="bottom" id="AS1-V0-DVF"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="jW0-JE-X8t" colorLabel="IBBuiltInLabel-Green">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G1p-qJ-udJ">
+                                <rect key="frame" x="242" y="108" width="59" height="30"/>
+                                <state key="normal" title="Button 1">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="bZU-Dh-Usw" kind="show" identifier="Button 1" id="dYy-cR-NQ8"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7MD-IV-WRu">
+                                <rect key="frame" x="242" y="204" width="59" height="30"/>
+                                <state key="normal" title="Button 2">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="bZU-Dh-Usw" kind="show" identifier="Button 2" id="8Db-gc-k0q"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="rgr-LP-hI5"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gAF-AR-Z3Y" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-10067" y="-3936"/>
+        </scene>
+        <!--Title 1-->
+        <scene sceneID="rG9-tH-Ig2">
+            <objects>
+                <viewController id="bZU-Dh-Usw" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Yb0-qy-knh"/>
+                        <viewControllerLayoutGuide type="bottom" id="wVO-eA-Ufk"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="pE0-lc-kkL">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3WI-rD-Afr">
+                                <rect key="frame" x="232" y="137" width="46" height="30"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="8e9-iL-82A" kind="show" id="gP2-vB-jBt"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Title 1" id="TyU-4b-QG7"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nQ9-Md-aOF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-9360" y="-3936"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="CB7-7k-5c1">
+            <objects>
+                <viewController id="Nsh-3z-Uzm" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="YvH-R7-tIQ"/>
+                        <viewControllerLayoutGuide type="bottom" id="old-gg-0Ff"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="rC3-Vb-sFw">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="InJ-cc-ta0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1307" y="-2413"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="63Z-jp-oIl">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="fYh-Ge-C13" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="qpg-cN-KWR">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="8e9-iL-82A" kind="relationship" relationship="rootViewController" id="CZR-B2-P2G"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UE1-Ga-2fV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-10781" y="-3636"/>
+        </scene>
+    </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="dYy-cR-NQ8"/>
+        <segue reference="gP2-vB-jBt"/>
+    </inferredMetricsTieBreakers>
+</document>
